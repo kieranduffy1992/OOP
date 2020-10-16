@@ -50,6 +50,6 @@ public class TestArrayList {
         System.out.println("\nDisplaying the state of all line-items one last time...\n\n");
         for(int i=0;i<allLineItems.length;i++)
             if(allLineItems[i]!=null)
-                System.out.println(allLineItems[i]);
+                System.out.println(allLineItems[i].toString());
     }
 }
